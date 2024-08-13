@@ -4,7 +4,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   nitro: {
     prerender: {
-        crawlLinks: false
+        crawlLinks: false,
+        routes: ['/other'],
     }
   }
 })
